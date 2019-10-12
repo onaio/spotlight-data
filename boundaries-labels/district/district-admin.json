@@ -1,0 +1,16 @@
+{
+  "label": "District Boundaries",
+  "source": {
+    "type": "vector",
+    "layer": "zwe_adm2_district",
+    "url": "mapbox://ona.62o31uy4"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 1.5,
+    "line-color": "#737373",
+    "line-opacity": 0.5
+  },
+  "visible": true,
+  "category": "Boundaries & Labels"
+}

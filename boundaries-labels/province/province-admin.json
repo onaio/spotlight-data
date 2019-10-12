@@ -1,0 +1,17 @@
+{
+  "label": "Province Boundaries",
+  "source": {
+    "type": "vector",
+    "layer": "zwe_adm1_province",
+    "url": "mapbox://ona.9h0dpqlh"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 2,
+    "line-color": "#888",
+    "line-opacity": 0.6,
+    "line-gap-width": 0
+  },
+  "visible": true,
+  "category": "Boundaries & Labels"
+}
