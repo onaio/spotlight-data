@@ -1,0 +1,34 @@
+{
+    "label": "% of ever-married women age 15-49 who ever have experienced emotional, physical or sexual violence by husband/partner (2015)",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2746
+        },
+        "layer": "zwe_adm1_province",
+        "url": "mapbox://ona.9h0dpqlh",
+        "join": [
+            "ADM1_PCODE",
+            "pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "ever_married_15_49_abused",
+    "categories": {
+        "breaks": "yes",
+        "color": [
+            "#1a9641",
+            "#fdae61",
+            "#d7191c"
+        ],
+        "clusters": 3
+    },
+    
+    "popup": {
+        "header": "province",
+        "body": " <p style=text-align:left;><b>% Women Abused:</b> {{ever_married_15_49_abused}}</p>"
+    },
+    "visible": false,
+    "credit": ""
+}

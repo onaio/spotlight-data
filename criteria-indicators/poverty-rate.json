@@ -1,0 +1,34 @@
+{
+    "label": "Poverty Rate (2015)",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2746
+        },
+        "layer": "zwe_adm1_province",
+        "url": "mapbox://ona.9h0dpqlh",
+        "join": [
+            "ADM1_PCODE",
+            "pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "poverty_rate",
+    "categories": {
+        "breaks": "yes",
+        "color": [
+            "#1a9641",
+            "#fdae61",
+            "#d7191c"
+        ],
+        "clusters": 3
+    },
+    
+    "popup": {
+        "header": "province",
+        "body": " <p style=text-align:left;><b>% Poverty Rate:</b> {{poverty_rate}}</p>"
+    },
+    "visible": false,
+    "credit": ""
+}
