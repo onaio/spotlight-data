@@ -1,5 +1,5 @@
 {
-    "label": "% of women age 15-19 who have begun childbearing (2015)",
+    "label": "% of women age 15-19 who have begun childbearing",
     "source": {
         "type": "vector",
         "data": {
@@ -25,5 +25,5 @@
         "body": " <p style=text-align:left;><b>Childbearing Women:</b> {{childbrearing_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

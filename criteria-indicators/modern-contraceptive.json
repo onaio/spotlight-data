@@ -1,5 +1,5 @@
 {
-    "label": "% of women age 15-49 who use modern contraceptive (2015)",
+    "label": "% of women age 15-49 who use modern contraceptive",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% Women who use modern contraceptives:</b> {{modern_contraceptive_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }
