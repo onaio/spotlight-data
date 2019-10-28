@@ -1,5 +1,5 @@
 {
-    "label": "% of ever-married women age 15-49 who ever have experienced emotional, physical or sexual violence by husband/partner (2015)",
+    "label": "% of ever-married women age 15-49 who ever have experienced emotional, physical or sexual violence by husband/partner",
     "source": {
         "type": "vector",
         "data": {
@@ -30,5 +30,5 @@
         "body": " <p style=text-align:left;><b>% Women Abused:</b> {{ever_married_15_49_abused}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

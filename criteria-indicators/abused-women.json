@@ -1,5 +1,5 @@
 {
-    "label": "% of women age 15-49 who ever experienced sexual violence (2015)",
+    "label": "% of women age 15-49 who ever experienced sexual violence",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% Women Abused:</b> {{sexul_abuse_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

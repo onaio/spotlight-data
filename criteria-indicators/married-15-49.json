@@ -1,5 +1,5 @@
 {
-    "label": "% of women age 15-19 who currently married/in union (2014)",
+    "label": "% of women age 15-19 who currently married/in union",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% Women Married/ In Union:</b> {{married_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2014 Data"
 }

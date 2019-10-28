@@ -1,5 +1,5 @@
 {
-    "label": "Poverty Rate (2015)",
+    "label": "Poverty Rate",
     "source": {
         "type": "vector",
         "data": {
@@ -30,5 +30,5 @@
         "body": " <p style=text-align:left;><b>% Poverty Rate:</b> {{poverty_rate}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

@@ -1,5 +1,5 @@
 {
-    "label": "HIV prevalence among female adults 15-49 (2015)",
+    "label": "HIV prevalence among female adults 15-49",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% HIV Prevalence:</b> {{hiv_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

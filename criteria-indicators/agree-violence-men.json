@@ -1,5 +1,5 @@
 {
-    "label": "% who agree with violence against wives at least on specified reason (age 15-49) - Men",
+    "label": "% who agree with violence against wives at least on specified reason - Men",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% Men who Support Violence:</b> {{agree_violence_men}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "Men Ages 15-49"
 }

@@ -1,5 +1,5 @@
 {
-    "label": "% of women age 15-49 have problems in accessing health care (2015)",
+    "label": "% of women age 15-49 have problems in accessing health care",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>% Women with Problems Accessing Health:</b> {{problem_access_health_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }

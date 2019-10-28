@@ -1,5 +1,5 @@
 {
-    "label": "% of women never sought help or never told anyone (2015)",
+    "label": "% of women never sought help or never told anyone",
     "source": {
         "type": "vector",
         "data": {
@@ -29,5 +29,5 @@
         "body": " <p style=text-align:left;><b>SAbused Women who didn't seek Help:</b> {{not_seek_help_15_49}}</p>"
     },
     "visible": false,
-    "credit": ""
+    "credit": "2015 Data"
 }
