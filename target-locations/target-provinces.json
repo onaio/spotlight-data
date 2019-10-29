@@ -1,0 +1,39 @@
+{
+    "label": "Proposed Locations for Spotlight in Zimbabwe by Province",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2786
+        },
+        "layer": "zwe_adm1_province",
+        "url": "mapbox://ona.9h0dpqlh",
+        "join": [
+            "ADM1_PCODE",
+            "pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "value",
+    "categories": {
+        "breaks": "no",
+        "color": [
+            "#E1E1E1",
+            "#5B92E5"
+        ],
+        "limit": [
+            0,
+            1
+        ],
+        "label": [
+            "Not Proposed",
+            "Proposed"
+        ]
+    },
+    "popup": {
+        "header": "province",
+        "body": ""
+    },
+    "visible": false,
+    "credit": " "
+}
