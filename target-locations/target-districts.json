@@ -1,0 +1,39 @@
+{
+    "label": "Proposed Locations for Spotlight in Zimbabwe by District",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2788
+        },
+        "layer": "zwe_adm2_district",
+        "url": "mapbox://ona.62o31uy4",
+        "join": [
+            "ADM2_PCODE",
+            "pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "value",
+    "categories": {
+        "breaks": "no",
+        "color": [
+            "#E1E1E1",
+            "#5B92E5"
+        ],
+        "limit": [
+            0,
+            1
+        ],
+        "label": [
+            "Not Proposed",
+            "Proposed"
+        ]
+    },
+    "popup": {
+        "header": "district",
+        "body": ""
+    },
+    "visible": false,
+    "credit": " "
+}
