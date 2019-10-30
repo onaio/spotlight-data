@@ -1,0 +1,79 @@
+{
+    "label": "Victim Friendly Clinic - Province",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2894
+        },
+        "layer": "zwe_adm1_province",
+        "url": "mapbox://ona.9h0dpqlh",
+        "join": [
+            "ADM1_PCODE",
+            "province_pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "no_ccws",
+    "categories": {
+        "breaks": "yes",
+        "color": [
+            "Greens"
+        ],
+        "clusters": "5"
+    },
+    "aggregate": {
+        "filter": [
+            "province",
+            "ccws_sector",
+            "un_agency",
+            "dept_social_welfare",
+            "victim_friendly_clinic"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "multi",
+            "multi",
+            "multi",
+            "multi"
+        ],
+        "filter-label": [
+            "Province",
+            "CCWs Sector",
+            "UN Agency",
+            "Department of Social Welfare?",
+            "Name of Victim Friendly Clinic"
+        ],
+        "filter-type": [
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool"
+        ]
+    },
+    "data-parse": {
+        "ccws_sector": {
+            "type": "multiple",
+            "split": ","
+        },
+        "un_agency": {
+            "type": "multiple",
+            "split": ","
+        },
+        "dept_social_welfare": {
+            "type": "multiple",
+            "split": ","
+        },
+        "victim_friendly_clinic": {
+            "type": "multiple",
+            "split": ","
+        }
+    },
+    "popup": {
+        "header": "province",
+        "body": " <p style=text-align:left;><b>Number of Victim Friendly Clinic:</b> {{no_victim_friendly_clinic}}<br><b>Number of CCWs:</b> {{no_ccws}}</p>"
+    },
+    "visible": false,
+    "credit": " "
+}
