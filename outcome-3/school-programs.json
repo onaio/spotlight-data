@@ -1,0 +1,49 @@
+{
+    "label": "School Programmes",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 2921
+        },
+        "layer": "zwe_adm2_district",
+        "url": "mapbox://ona.62o31uy4",
+        "join": [
+            "ADM2_PCODE",
+            "district_pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "children_8_18",
+    "categories": {
+        "breaks": "yes",
+        "color": [
+            "Blues"
+        ],
+        "clusters": "5"
+    },
+    "aggregate": {
+        "filter": [
+            "district",
+            "2019"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all"
+        ],
+        "filter-label": [
+            "District",
+            "2019?"
+        ],
+        "filter-type": [
+            "vBool",
+            "vBool"
+        ]
+    },
+    "popup": {
+        "header": "district",
+        "body": " <p style=text-align:left;><b>Children Between 8-18:</b> {{children_8_18}}<br><b>Boys:</b> {{boys}}<br><b>Girls:</b> {{girls}}</p>"
+    },
+    "visible": false,
+    "credit": " "
+}
