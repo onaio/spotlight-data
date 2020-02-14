@@ -32,7 +32,7 @@
     },
     "popup": {
         "header": "district",
-        "body": ""
+        "body": "<p style=font-size:14px> <b>{{district}}</b></p>"
     },
     "visible": false,
     "credit": " "

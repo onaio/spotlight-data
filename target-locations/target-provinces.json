@@ -32,7 +32,7 @@
     },
     "popup": {
         "header": "province",
-        "body": ""
+        "body": "<p style=font-size:14px> <b>{{province}}</b></p>"
     },
     "visible": false,
     "credit": " "
