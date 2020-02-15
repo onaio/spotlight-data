@@ -46,7 +46,7 @@
     },
     "popup": {
         "header": "distric",
-        "body": "<p style=text-align:left;><b>Number of Partners:</b> {{partners}<br><b>Partners:</b> {{partners_data}}</p>"
+        "body": "<p style=text-align:left;><b>Number of Partners:</b> {{partners}}<br><b>Partners:</b> {{partners_data}}</p>"
     },
     "visible": false,
     "credit": "Pillar 2 -Strengthening Institutions"
