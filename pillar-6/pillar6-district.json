@@ -1,0 +1,53 @@
+{
+    "label": "Presence - District Level",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 9550
+        },
+        "layer": "zwe_adm2_district",
+        "url": "mapbox://ona.62o31uy4",
+        "join": [
+            "ADM2_PCODE",
+            "dcode"
+          ]
+    },
+    "type": "fill",
+    "property": "partners",
+    "categories": {
+        "breaks": "yes",
+        "color": ["#6baed6","#3182bd","#08519c"],
+        "clusters": 3
+    },
+    "aggregate": {
+        "filter": [
+            "partners_data",
+            "distric"
+        ],
+        "accepted-filter-values": [
+            "multi",
+            "all"
+        ],
+        "filter-label": [
+            "Partners",
+            "District"
+        ],
+        "filter-type": [
+            "vBool",
+            "vBool"
+        ]
+    },
+    "data-parse": {
+        "partners_data": {
+            "type": "multiple",
+            "split": ","
+        }
+    },
+    "popup": {
+        "header": "distric",
+        "body": "<p style=text-align:left;><b>Number of Partners:</b> {{partners}<br><b>Partners:</b> {{partners_data}}</p>"
+    },
+    "visible": false,
+    "credit": "Pillar 6 -Supporting the Women’s Movement"
+}
